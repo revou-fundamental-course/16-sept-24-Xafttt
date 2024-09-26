@@ -1,0 +1,91 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  padding-top: 120px;
+}
+
+.navbar {
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.carousel-item img {
+  width: 50%; 
+  height: auto; 
+  margin: 0 auto; 
+}
+
+
+.hero {
+  padding: 50px 0;
+}
+
+.circle {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+}
+
+.circle img {
+  border-radius: 50%;
+  width: 150px;
+  height: 150px;
+  object-fit: cover;
+}
+
+
+.square {
+  width: 150px;
+  height: 150px;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  background-color: #f0f0f0;
+  border-radius: 0;
+}
+
+.square img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.product p {
+  margin-top: 10px;
+  font-size: 16px;
+}
+
+.product .row .col-6 {
+  display: flex;
+  justify-content: center;
+}
+
+@media (min-width: 768px) {
+  .circle {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+.message-us .form-control,
+.message-us textarea {
+  background-color: #f7f7f7;
+}
+
+.output-box {
+  background-color: #ffffff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
